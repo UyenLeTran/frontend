@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --width-box: 220px;
+    --height-box:100px;
+  }
+  
+
+div.box{
+    width: var(--width-box);
+    height: var(--height-box);
+    background-color: green;
+    text-align:center;
+    position: fixed;
+    line-height: var(--height-box);
+}
+div.top-left{
+    top:0px;
+    left: 0;
+}
+div.top-center{
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.top-right{
+    top: 0;
+    right: 0px;
+}
+div.bottom-left{
+    bottom: 0;
+    left: 0px;
+}
+div.bottom-center{
+    transform: translateX(-50%);
+    bottom: 0;
+    left: 50%;
+}
+div.bottom-right{
+    bottom: 0;
+    right: 0px;
+}
+div.left-center{
+    top: 50%;
+    left:0;
+    transform: translateY(-50%);
+    }
+div.right-center{
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div.center-center{
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+div.box-sm {
+    width: 100px;
+    height: 30px;
+    background-color:red;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+}
+div.ctl{
+    top: -30px;
+    left: -100px;
+}
+div.ctr {
+    top: -30px;
+    right: -100px;
+}
+div.cbl {
+    bottom: -30px;
+    left: -100px;
+}
+div.cbr {
+    position: absolute;
+    bottom: -30px;
+    right: -100px;
+}
+
+
+
+/* <body>
+    <div class="box top-left">top-left</div>
+    <div class="box top-center">top-center</div>
+    <div class="box top-right">top-right</div>
+    <div class="box left-center">left-center</div>
+    <div class="box center-center">
+        center-center
+        <div class="box-sm ctl">ctl</div>
+        <div class="box-sm ctr">ctr</div>
+        <div class="box-sm cbl">cbl</div>
+        <div class="box-sm cbr">cbr</div>
+    </div>
+    <div class="box right-center">right-center</div>
+    <div class="box bottom-left">bottom-left</div>
+    <div class="box bottom-center">bottom-center</div>
+    <div class="box bottom-right">bottom-right</div>
+</body> */

@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Times New Roman";
+}
+
+div.container{
+    width: 1000px;
+    background-color: #FED049;
+    margin: 0px auto;
+    font-size: 0px;
+}
+div.item{
+    font-size: 20px;
+    line-height: 23px;
+    background: #007580;
+    color: #fff;
+    margin:15px;
+    width:calc((100% - 30px* 4) / 4);
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+div.item:nth-child(even){
+    background: #282846;
+
+}
+

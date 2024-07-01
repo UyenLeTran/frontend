@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+body,
+html {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF3F9;
+}
+
+div#fsubmit {
+    width: 625px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+div#fsubmit div {
+    padding: 0px 117px;
+}
+
+div#fsubmit button.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    background-color: #2F316E;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    border:none;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #20225E;
+    color: #fff;
+    padding: 101px 0px 70px 0px;
+    text-align: center;
+    margin-bottom: 65px;
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px;
+}
+
+div label {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #151749;
+    margin-bottom: 14px;
+}
+
+div input, div select {
+    border: none;
+    border-bottom: 2px solid #D3D5F1;
+    width: 391px;
+    padding: 13px 0px;
+    outline:none;
+}
+
+
+div input::placeholder,
+select {
+    color: #151749;
+    font-size: 18px;
+}
+
+div.type_name,
+div.type_link_source {
+    margin-bottom: 40px;
+}
+
+div select{
+    appearance: none;
+}
+div#fsubmit div.custome-select{
+    position:relative;
+    padding:0px;
+    margin-bottom:65px;
+}
+
+div.custome-select::after {
+    content: '\f078'; /* Mã Unicode cho biểu tượng mũi tên xuống trong Font Awesome */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    pointer-events: none; /* Không can thiệp vào tương tác người dùng */
+    transform: translateY(-50%);
+
+}
+
+div.type_submit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+div.type_submit a {
+    display: block;
+    padding: 17px 0px;
+    text-decoration: none;
+    background-color: #20225E;
+    color: #fff;
+    font-family: Mulish;
+    font-size: 18px;
+    text-align: center;
+    width: 247px;
+    border-radius: 40px;
+}
