@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="process.php" method="POST">
+    <h1>Đăng ký</h1>
+    <label for="username">Tên</label>
+    <input type="text" width="100px" id="username" name="username">
+    <p>Đây là tên sẽ được hiển thị với thông tin của bạn. Bạn có thể sử dụng bất kỳ tên nào mà bạn muốn</p>
+    <p>Sau khi tạo, bạn sẽ không thay đổi được tên này </p>
+    <label for="email">Địa chỉ email</label>
+    <input type="email" width="100px" id="email" name="email" required>
+    <p>Lưu ý điền email cẩn thận. Nếu điền sai email của bạn sẽ không thể đăng ký thành viên(Khuyến khích nên dùng gmail) </p>
+    <label for="pass">Mật khẩu</label>   
+    <input type="password" id="pass" name="password" required>
+    <label for="comfirm-pass">Xác nhận mật khẩu</label>   
+    <input type="password" id="comfirm-pass" name="comfirm-pass" required>
+    <p>Nhập mật khẩu của bạn trong lần đầu tiên và xác nhận nó bằng cách nhập lại mật khẩu ở ô bên dưới</p>
+        <label>Giới tính</label>
+        <br>
+        <input type="radio" name="gender" checked> Nam
+        <br>
+        <input type="radio" name="gender">Nữ
+        <br>
+        <input type="radio" name="gender">Không xác định
+        <br>
+        <label>Ngày sinh</label>
+        <select name="month" id="">
+            <option value="1" checked>Tháng 1</option>
+            <option value="2">Tháng 2</option>
+            <option value="3">Tháng 3</option>
+            <option value="4">Tháng 4</option>
+            <option value="5">Tháng 5</option>
+            <option value="6">Tháng 6</option>
+            <option value="7">Tháng 7</option>
+            <option value="8">Tháng 8</option>
+            <option value="9">Tháng 9</option>
+            <option value="10">Tháng 10</option>
+            <option value="11">Tháng 11</option>
+            <option value="12">Tháng 12</option>
+        </select>
+        <input type="number" placeholder="Ngày" min="1" name="date" size="10">
+        <input type="number" placeholder="Năm" min="1" name="year" size="10">
+        <hr>
+        <div>
+            <span>Xác nhận</span>
+            <input type="checkbox" name="comfirm">
+            <img src="image.png" alt="" width="50px">
+        </div>
+        <button type="submit">Đăng ký</button>
+    <form>
+</body>
+</html>

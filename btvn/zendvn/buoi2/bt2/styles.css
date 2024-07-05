@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto";
+}
+table{
+    border-collapse: collapse;
+}
+table tr.row1{
+    background-color:#415466;
+}
+table tr.row1 th{
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align: left;
+    border:0px;
+    color:#fff;
+}
+table tr.row1 th:first-child {
+    padding-left: 8px;
+    padding-right: 44px;
+}
+table tr.row2:nth-child(even){
+    background-color: #DEE2E6;
+}
+table tr.row2:nth-child(odd){
+    background-color: #fff
+}
+table tr.row2 td:first-child{
+    padding: 53px 8px;
+}
+table tr.row2 td:nth-child(2) p{
+    padding-right: 60.5px;
+    font-size: 16px;
+    line-height: 25px;
+}
+table tr.row2 td:nth-child(3){
+    padding-right: 16px;
+}
+table tr.row2 td:nth-child(4) {
+    padding-right: 20px;
+}
+table tr.row2 td:nth-child(5) {
+    padding-right: 54px;
+}
+table tr.row2 td:nth-child(6) div {
+    padding-right: 54px;
+}
+table tr.row2 td:nth-child(7) div {
+    padding-right: 54px;
+}
+table tr.row2 td:nth-child(8) div {
+    padding-right: 33px;
+}
+table tr.row2 td img{
+    width: 164px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table tr.row2 td input[type="button"]{
+    text-align: center;
+    vertical-align: middle;
+    background-color:#117A8B;
+    color:#fff;
+    border:0px;
+    border-radius: 30px;
+    padding:6.8px 15.8px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+table tr.row2 td input[type="button"].active{
+    background-color: #299F86;
+}
+table tr.row2 td input[type="number"]{
+    border: 1px solid #DEE2E6;
+    background-color:#fff;
+    width:65px;
+    height:30px;
+    padding-left:9px;
+}
+table tr.row2 td.creater div i{
+    font-size: 16px;
+    font-weight: 900;
+    color: #415466;
+    line-height: 25px;
+}
+table tr.row2 td.creater div span{
+    font-size: 16px;
+    color:#415466;
+    display: inline-block;
+}
+table tr.row2 td.creater div:first-child span{
+    margin-left:5px;
+}
+table tr.row2 td.creater div:last-child span{
+    margin-left:2px;
+}
+table tr.row2 td.update div {
+    font-size: 0px;
+}
+table tr.row2 td.update div button{
+    background-color: unset;
+    border:0px;
+    display:inline-block;
+    width:33px;
+    height:33px;
+    border-radius:50%;
+    text-align:center;
+    vertical-align: middle;
+}
+table tr.row2 td.update div button:nth-child(1){
+    background-color: #299F86;
+}
+table tr.row2 td.update div button:nth-child(2){
+    margin-left:4px;
+    margin-right:4px;
+    background-color: #D83347;  
+}
+table tr.row2 td.update div button:nth-child(3){
+    background-color: #4E555B;
+}
+table tr.row2 td.update div i{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+
+

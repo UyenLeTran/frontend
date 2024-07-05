@@ -17,6 +17,7 @@ div.header{
     padding: 25px 45px;
     display: flex;
     justify-content: space-between;
+    align-items: center ;
 }
 div.header a.logo{
     font-family: IBM Plex Sans;
@@ -24,6 +25,7 @@ div.header a.logo{
     font-weight: 700;
     line-height: 28.6px;
     text-align: left;
+    color: #14203E3D;
 
 }
 div.header ul{
@@ -34,13 +36,27 @@ div.header ul li{
 
 }
 div.header ul li a{
-    
+  font-size: 18px;
+  color: #14203E;
 }
 div.actions button.btn-login{
+  border-radius: 10px;
+  background-color:#F6F0E8;
+  color:#000;
+  font-size: 18px;
+  border: none;
+  padding:13px 30px;
+  margin-right: 15px;
 
 }
 div.actions button.btn-free-trial{
-
+  border-radius: 10px;
+  border: none;
+  background-color:#14203E;
+  font-size: 18px;
+  color:#FFFFFF;
+  padding: 13px 30px;
+  outline: none;
 }
 div.hero{
     background-color: #FFFCF8;
@@ -58,36 +74,45 @@ div.hero h1.hero-title{
     font-weight: 700;
 }
 div.hero p.hero-desc{
-
+    font-size: 22px;
+    font-weight: 500;
+    margin:30px 0px 40px 0px;
 }
 div.hero button.hero-button{
-
+  font-size: 18px;
+  background-color:#14203E;
+  padding:25px 40px;
+  color:#fff;
+  border:0px;
+  border-radius: 10px;
 }
 div.articles{
     background: #fff;
     padding:30px 173px 62px 173px;
+    text-align: center;
 }
 div.articles div.title{
    display: flex;
    align-items: center;
    justify-content: center;
    gap:15px;
+   margin-bottom:30px;
 }
 div.articles span.title-line{
     display: inline-block;
     width: 200px;
     height: 1px;
-    background-color: #14203e2d ;
-   
+    background-color: #14203e2d ; 
 }
 div.articles h2.title-text{
-    text-align: center;
+  font-size: 14px;
+  font-weight: 600;
 }
-
 div.article-list{
     display: flex;
     justify-content: center;
     gap:30px;
+    text-align: left;
 }
 div.article-list div.article-item{
     width: calc(( 100% - 90px) / 3);
@@ -98,10 +123,17 @@ div.article-list img.article-thumb{
     height: 231px;
 }
 div.article-list h3.article-title{
-
+  margin:20px 0px 15px 0px;
+}
+div.article-list h3.article-title a{
+  font-family: IBM Plex Sans;
+  font-size: 22px;
+  font-weight: 700;
+  color: #14203E;
 }
 div.article-list span.article-time{
-
+  font-size: 14px;
+  font-weight: 400;
 }
 
 
