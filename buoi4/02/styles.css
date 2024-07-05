@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+body{
+   font-family: "Montserrat";
+}
+header{
+    background-color: #fff;
+    padding:8px 0px;
+    text-align: center;
+    font-family: "Poppins";
+}
+header nav{
+
+
+}
+header nav ul{
+
+}
+header nav ul li{
+    display:inline-block;
+    margin-right: 34px;
+}
+header nav ul li:last-child{
+    margin-right: 0px;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color:#1D1D24;
+}
+header nav ul li button{
+    border: 2px solid #1D1D2480;
+    padding:12px 27px;
+    text-align: center;
+    color:#1D1D24;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 20px;
+}
+section.hero{
+    background-color:#F8F9FC;
+    padding-top:150px;
+    padding-bottom:150px;
+    text-align: center;
+    font-size: 0px;
+    font-family: Poppins;
+}
+section.hero img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    border: 14px solid #FFFFFF;
+    vertical-align: middle;
+}
+section.hero div.info{
+    display: inline-block;
+    margin-left:34px;
+    text-align: left;
+    vertical-align: middle;
+}
+section.hero div.info span{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #1F1F25;
+}
+section.hero div.info h1{
+    font-size: 58px;
+    font-weight: 700;
+    color:#1F1F25;
+}
+section.hero div.info h1 span{   
+    font-size: 58px;
+    font-weight: 700;
+    color:#F9004D;
+}
+section.hero div.info h2{  
+    font-size: 58px;
+    font-weight: 700;
+}
+section.portfolio{
+    background-color: #fff;
+    text-align: center;
+    font-size: 0px;
+    padding:120px 106px;
+}
+section.portfolio h2{   
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+color:#1D1D24;
+margin-bottom:30px;
+}
+section.portfolio div.card{
+    text-align: center;
+    width: calc((100% - 68px)/3);
+    display: inline-block;
+    margin-bottom: 30px ;
+    margin-right: 34px;
+    vertical-align: top;
+    border-radius: 10px;
+    overflow: hidden;
+}
+section.portfolio div.card:nth-of-type(3n){
+    margin-right:0px;
+}
+
+section.portfolio div.card img{
+    width: 100%;
+    height: 360px;
+    margin-bottom:26px;
+    box-shadow: 0px 25px 65px 0px #0000001A;
+}
+
+section.portfolio div.card span.category{
+    font-family: Poppins;
+    font-size: 16px;
+    color:#1D1D24;
+}
+section.portfolio div.card h3.name{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1D1D24;
+}
+footer{
+    background-color:#00010C;
+    text-align: center;
+    padding:31px 0px;
+}
+footer p{
+    font-family: Poppins;
+    font-size: 16px;
+    color: #C6C9D8;
+}

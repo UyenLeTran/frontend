@@ -1,0 +1,12 @@
+<h1>Mạng xã hội</h1>
+    <div class="social-list">
+        <a href="#" class="social-link twitter">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="social-link facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" class="social-link instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    </div>

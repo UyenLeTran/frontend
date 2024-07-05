@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #F3F2FD 0%, #F9F4FC 100%);
+    font-family: "Mulish", sans-serif;
+
+}
+div.wrapper{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 1152px;
+    background-color: #fff;
+    padding:40px;
+    font-size: 0px;
+    box-shadow: 0px 15px 40px -20px #00406665;
+}
+div.info{
+    background: linear-gradient(135deg, #BA91E9 0%, #6D58CE 100%);
+    display:inline-block;
+    width: 465px;
+    padding: 65px 159px 65px 65px;
+    margin-right:95px;
+    vertical-align: middle;
+}
+div.info  div.item{
+    color:#fff;
+    margin-bottom:40px;
+
+}
+div.info  div.item:last-child{
+  margin-bottom: 0px;
+}
+div.info  div.item span.icon{
+  width: 33px;
+  height:33px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.23);
+  text-align: center;
+  border-radius: 100%;
+  position: relative;
+}
+div.info  div.item span.icon i{
+  color:#fff;
+  font-size: 12px;
+  line-height: 33px;
+  text-align: center;
+  line-height: 33px;
+}
+div.info  div.item h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top:17px;
+    margin-bottom:10px;
+}
+div.info  div.item p{  
+    font-size: 16px;
+    line-height: 20.08px;
+}
+div.form{
+    background-color: #fff;
+    display:inline-block;
+    vertical-align: middle;
+    width: 417px;;
+
+}
+div.form h1{
+    font-size: 32px;
+    font-weight: 700;
+    color:#151E42;
+    margin-bottom: 35px;
+}
+div.form form{
+  display: inline-block;
+ 
+}
+div.form form div.form-group{
+  margin-bottom:35px;
+  
+}
+div.form form div.form-group label{
+  font-size: 16px;
+  font-weight: 600;
+  color:#151E42;
+  display: block; 
+  margin-bottom: 10px;
+}
+div.form form div.form-group label::placeholder{ 
+  font-size: 16px;
+  line-height: 20.08px;
+}
+div.form form div.form-group input{
+  width: 100%;
+  height: 60px;
+  border: 1px 0px 0px 0px;
+  padding-left: 20px;
+}
+div.form form div.form-group.noti{
+ margin-bottom:40px;
+}
+div.form form div.form-group input[type="checkbox"]{
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  border: 1px 0px 0px 0px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+div.form form div.form-group.noti label{
+  margin-bottom:0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.form form button.btn-submit{
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 20px 20px -15px #594DDF80;
+  background-color:#6E59CE;
+  border:1px solid  #6E59CE;
+  font-size: 16px;
+  font-weight: 700;
+  color:#fff;
+  text-align: center;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+
