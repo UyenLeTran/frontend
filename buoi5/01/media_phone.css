@@ -1,24 +1,39 @@
 @media only screen and (max-width: 600px) {
-    a.logo{
-      display: none;
-    }
-    div.actions{
-      display:none;
-    }
-    div.hero{
-      padding:100px 0px;
-    }
-    div.articles{
-      padding:20px 20px;
-    }
-    div.article-list{
-      display: block;
-    }
-    div.article-list div.article-item {
-     margin-top:20px;
-      width: 100%;
-    }
-    div.article-list img.article-thumb{
-      object-fit: cover;
-    }
+  div.header {
+    padding-left: 0px;
+    padding-right: 0;
   }
+
+  div.header ul {
+    gap: 14px;
+  }
+
+  a.logo {
+    display: none;
+  }
+
+  div.actions {
+    display: none;
+  }
+
+  div.hero {
+    padding: 100px 0px;
+  }
+
+  div.articles {
+    padding: 20px 20px;
+  }
+
+  div.article-list {
+    display: block;
+  }
+
+  div.article-list div.article-item {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  div.article-list img.article-thumb {
+    object-fit: cover;
+  }
+}
