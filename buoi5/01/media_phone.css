@@ -2,6 +2,7 @@
   div.header {
     padding-left: 0px;
     padding-right: 0;
+    justify-content: center;
   }
 
   div.header ul {
