@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.area-box{
+    border: 5px solid red;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    padding:2px;
+}
+h1{
+    border:2px solid green;
+}

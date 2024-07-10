@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #5a67d8;
+    --secondary-color: #463373;
+    --font-color: #718096;
+    --bg-color: #fff;
+    --heading-color: #2d3748;
+    --border-radius: 6px;
+    --border-radius-full: 15px;
+    --border-color: transparent;
+    --nav-color: #292922;
+    --dropdown-color: #fff;
+    --iframe-filter: grayscale(0%);
+    --bg-grey: #f4f4f4;
+    --bg-lightgrey: #f8f9fa;
+    --btn-bg: #e2e8f0;
+    --primary-font: 'Hind', sans-serif;
+    --heading-font: 'Libre Baskerville', serif;
+  }

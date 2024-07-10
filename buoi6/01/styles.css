@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box{
+    background-color: red;
+    width: 200px;
+    height:200px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    line-height:200px;
+    
+}
+#box::after{
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: -11px;
+    left:-11px;
+    z-index: -1;
+
+}
+#box::before{
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+    position: absolute;
+    bottom: -11px;
+    right: -11px;
+    z-index: -1;
+
+}
