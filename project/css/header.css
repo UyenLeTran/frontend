@@ -4,7 +4,7 @@ header{
 header .container nav {
     display: flex;
     justify-content: space-between;
-    width: 1290px;
+    padding: 0px 315px;
     margin:0px auto;
     align-items: center;
 }
