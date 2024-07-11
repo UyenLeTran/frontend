@@ -9,10 +9,21 @@
 img {
   width: 100%;
 }
-
+@font-face {
+    font-family: 'CustomFont';
+    src: url('font/Merriweather/Merriweather-Black.ttf') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face{
+    font-family: "Poppins";
+    src:url("font/Poppins/Poppins-ExtraLight.ttf");
+  }
 body{
     background: #D8DAE2;
     padding: 216px 0px;
+    font-family: 'CustomFont';
+
 }
 .container{
     background: #EFF0F1;
@@ -43,8 +54,21 @@ div.circle-bottom{
     left: 239px;
     transform: translateY(50%);
     z-index: -1;
-
-
+}
+div.collection-category-filter{
+    margin-bottom: 56px;
+}
+h2{
+    margin-bottom: 24px;
+}
+button.collection-category-filter-item{
+    padding:10px;
+    border:0px;
+    background: #fff;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
 }
 div.collection-list{
     display:flex;
@@ -53,13 +77,16 @@ div.collection-list{
 }
 div.collection-item{
     width:calc(( 100% - 124px)/3);
-    background:yellow;
+    background:#fff;
     padding:24px;
+    border-radius: 32px;
 }
 div.thumb-small {
     display:flex;
     justify-content: center;
     gap:16px;
+    margin-top:16px;
+    margin-bottom:24px;
 }
 div.thumb-small img{
     width:calc(( 100% - 16px)/3);
@@ -67,4 +94,18 @@ div.thumb-small img{
 div.meta{
     display:flex;
     justify-content: space-between;
+    font-family: "Poppins"; 
+    color:#000;
+}
+div.meta h3{
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+    
+
+}
+span.views{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
 }
