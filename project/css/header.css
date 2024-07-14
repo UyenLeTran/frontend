@@ -1,36 +1,37 @@
-header{
+header {
     background: #FFFFFF;
 }
-header .container nav {
+
+header nav {
     display: flex;
     justify-content: space-between;
-    padding: 0px 315px;
-    margin:0px auto;
+    margin: 0px auto;
     align-items: center;
 }
-header .container ul{
+
+header ul {
     display: flex;
     justify-content: center;
-    gap:24px;
+    gap: 24px;
 }
-a.main-logo{
+
+a.main-logo {
     font-family: Hind;
     font-size: 28px;
     font-weight: 600;
     color: #2D3748;
-    padding:20px 0px;
+    padding: 20px 0px;
 }
-a.main-logo i{
+
+a.main-logo i {
     font-size: 28px;
     color: #5A67D8;
 }
-li.menu-item{
-    
-}
-li.menu-item a.menu-link{
+
+li.menu-item {}
+
+li.menu-item a.menu-link {
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
 }
-
-

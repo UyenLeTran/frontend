@@ -1,0 +1,43 @@
+section#hero-article{
+    margin-bottom:72px;
+}
+div.hero-article-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+div.hero-article-info{
+    margin:113px 0px;
+}
+a.category-label{
+    padding: 5px 20px;
+    border-radius: 15px; 
+    color:#5A67D8;
+    display:inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:#5A67D80D;
+}
+h1.hero-article-title{
+    font-family: Libre Baskerville;
+    font-size: 44.82px;
+    font-weight: 700;
+    color: #2D3748;
+    margin:24px 0px;
+}
+p.hero-article-description{
+    font-family: Hind;
+    font-size: 18px;
+    text-align:justify;
+}
+div.hero-article-info{
+    width: calc((100% / 3) * 2);
+    vertical-align: middle;
+    
+}
+div.hero-article-image{
+    width: calc(100% / 3);
+}
+div.hero-article-image img{
+    border-radius: 15px;
+}

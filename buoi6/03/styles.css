@@ -21,15 +21,14 @@ img {
   }
 body{
     background: #D8DAE2;
-    padding: 216px 0px;
+    padding: 216px 20px;
     font-family: 'CustomFont';
 
 }
 .container{
     background: #EFF0F1;
-    width:1563px;
     margin: 0px auto;
-    border-radius: 26px 0px 0px 0px;
+    border-radius: 26px;
     position: relative;
     padding:62px;
 }
@@ -89,7 +88,7 @@ div.thumb-small {
     margin-bottom:24px;
 }
 div.thumb-small img{
-    width:calc(( 100% - 16px)/3);
+    width:calc(( 100% - 32px)/3);
 }
 div.meta{
     display:flex;
