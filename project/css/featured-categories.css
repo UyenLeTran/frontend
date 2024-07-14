@@ -10,7 +10,11 @@ div.featured-category-item{
     background-color: #fff;
     width: calc((100% - 90px) / 4);
     text-align: center;
-    padding: 20px 0px;
+    border-radius: 15px;
+}
+div.featured-category-item a.featured-category-content{
+    display: block;
+    padding:20px 0px;
 }
 div.featured-category-item i{
     font-size: 26px;
