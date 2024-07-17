@@ -1,0 +1,8 @@
+section#beauty-article{
+    margin:96px 0px;
+    background-color:#F4F4F4;
+}
+div.beauty-article-wrapper{
+    display: flex;
+    gap:30px;
+}

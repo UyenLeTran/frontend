@@ -1,0 +1,73 @@
+section#fashion-style-article{
+    padding:96px 0px;
+    background-color: #F8F9FA;
+    ;
+}
+h2.fashion-style-article-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:40px;
+}
+h2.fashion-style-article-heading span{
+    font-family: var(--heading-font);
+    font-size: 26px;
+    font-weight: 700;
+    color:#2D3748;
+    display: inline-block;
+}
+h2.fashion-style-article-heading a{
+    font-size: 16px;
+    font-weight: 500;
+    padding:6px 20px;
+    color: #718096;
+    display: inline-block;
+    background-color: #F4F4F4;
+    border-radius:15px;
+}
+div.fashion-style-article-wrapper{
+    display: flex;
+    gap:30px;
+}
+div.fashion-style-article-content{
+
+}
+img.fashion-style-article-thumb{
+}
+article.fashion-style-article-item{
+    border-radius: 15px;
+    overflow: hidden;
+    width: calc(100% - 60px);
+    display: flex;
+}
+div.fashion-style-article-info{
+    
+}
+h3.fashion-style-article-title{
+    margin-top: 25px;
+    margin-bottom:17px;
+}
+a.fashion-style-article-link{
+    font-size: 22px;
+    font-weight: 700;
+    color:#2D3748;
+}
+div.fashion-style-article-meta{
+   display: flex;
+   gap:10px;
+}
+img.fashion-style-article-author-avatar{
+    border-radius:50%;
+    width: 58px;
+    height:58px;
+}
+p.fashion-style-article-author-name{
+    font-family: Hind;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2D3748;
+}
+span.fashion-style-article-date{
+    font-family: Hind;
+    font-size: 16px;
+    color: #718096;
+}
