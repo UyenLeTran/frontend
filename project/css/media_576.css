@@ -84,12 +84,11 @@
     article.beauty-article-item{
         width:100%;
     }
+
     div.beauty-article-content {
-        flex-direction: column;
+        display:block
     }
-    h3.beauty-article-title {
-        margin-top:25px;
-    }
+    
     img.beauty-article-thumb {
         width: 100%;
         height: auto;

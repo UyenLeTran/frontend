@@ -32,16 +32,12 @@ div.beauty-article-wrapper{
     justify-content: space-between;
 }
 article.beauty-article-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     width: calc((100% - 30px)/2);
     background-color: #fff;
     box-shadow: 1px 1px 5px 0px #0101010D;
     border-radius: 15px;
     margin-bottom: 30px;
     overflow: hidden;
-    margin:25px 0px;
 }
 article.beauty-article-item:nth-last-child(1),article.beauty-article-item:nth-last-child(2){
     margin-bottom: 0px;
@@ -66,7 +62,7 @@ a.beauty-article-link{
     margin-bottom:16px;
 }
 div.beauty-article-info{
-    padding:0px 25px;
+    padding: 25px;
 }
 div.beauty-article-meta{
     display: flex;
