@@ -1,0 +1,98 @@
+@media only screen and (max-width: 600px) {
+    div.container{
+        width: 600px;
+    }
+    /*header*/
+    header nav {
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding:20px 0px;
+    }
+    header ul {
+        display: block;
+        font-size: 0px;
+        margin-top:15px;
+    }
+    li.menu-item {
+        display: inline-block;
+        text-align: center;
+        margin-left:24px;
+    }
+    li.menu-item:last-child{
+        margin-right: 0px;
+    }
+    /*end header*/
+    /*featured-categories*/
+    div.featured-categories-wrapper{
+        flex-wrap: wrap;
+    }
+    div.featured-category-item{
+        width: calc((100% - 90px) / 2);
+        flex-direction: column;
+    }
+    /*featured-categories*/
+    div.hero-article-wrapper {
+        display: block;
+    }
+    div.hero-article-info {
+        width: 100%;
+    }
+    div.hero-article-image{
+        width: 100%;
+    }
+    h1.hero-article-title {
+        font-family: Libre Baskerville;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 55px;
+        text-align: left;
+        margin:24px 0px;
+    }
+    p.hero-article-description{
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom:24px;
+    }
+    /*end featured-categories*/
+    /*top-pick-article*/
+    section#top-pick-article{
+    }
+    h2.top-pick-article-heading{
+        
+    }
+    div.top-pick-article-wrapper{
+        display: block;
+    }
+    article.top-pick-article-item{
+        margin-bottom:30px;
+    }
+    article.top-pick-article-item:last-child{
+        margin-bottom:30px;
+    }
+    article.top-pick-article-item::after {
+        
+    }
+    
+    div.top-pick-article-info{
+       
+    }
+    h3.top-pick-article-title{
+        
+    }
+    div.top-pick-article-meta{
+        
+    }
+    div.top-pick-article-meta p{
+        
+    }
+    div.top-pick-article-meta span{
+        
+    }
+    div.top-pick-article-meta img{
+        
+    }
+    
+    /*end top-pick-article*/
+
+}

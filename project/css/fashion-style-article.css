@@ -38,9 +38,10 @@ article.fashion-style-article-item{
     overflow: hidden;
     width: calc(100% - 60px);
     display: flex;
+    background: #fff;
 }
 div.fashion-style-article-info{
-    
+    padding: 0px 25px 25px 25px;
 }
 h3.fashion-style-article-title{
     margin-top: 25px;
