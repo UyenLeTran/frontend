@@ -29,18 +29,19 @@ h2.beauty-article-heading a{
 div.beauty-article-wrapper{
     display: flex;
     flex-wrap: wrap; 
-    justify-content: space-around;
+    justify-content: space-between;
 }
 article.beauty-article-item{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: calc(50% - 30px);
+    width: calc((100% - 30px)/2);
     background-color: #fff;
     box-shadow: 1px 1px 5px 0px #0101010D;
     border-radius: 15px;
     margin-bottom: 30px;
     overflow: hidden;
+    margin:25px 0px;
 }
 article.beauty-article-item:nth-last-child(1),article.beauty-article-item:nth-last-child(2){
     margin-bottom: 0px;
@@ -55,12 +56,7 @@ img.beauty-article-thumb{
     width: 262px;
     height: 278px;
 }
-div.beauty-article-info{
-    padding:0px 25px;
-}
-h3.beauty-article-title{
 
-}
 a.beauty-article-link{
     font-size: 22px;
     font-weight: 700;
@@ -68,6 +64,9 @@ a.beauty-article-link{
     color: #2D3748;
     display: inline-block;
     margin-bottom:16px;
+}
+div.beauty-article-info{
+    padding:0px 25px;
 }
 div.beauty-article-meta{
     display: flex;
