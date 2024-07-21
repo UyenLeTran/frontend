@@ -1,0 +1,74 @@
+section#trending-article{
+    background-color: #F8F9FA;
+    padding:96px 0px;
+
+}
+h2.trending-article-heading{
+    font-family: var(--heading-font);
+    font-size: 26px;
+    font-weight: 700;
+    color:#2D3748;
+    margin-bottom:40px;
+}
+div.trending-article-wrapper{
+    display:flex;
+    gap:30px;
+
+}
+article.trending-article-item{
+    width:calc((100% - 30px) / 2);
+    border-radius: 15px;
+    background-color: #fff;
+    overflow: hidden;
+}
+div.trending-article-content{
+    display: flex;
+    align-items: center;
+} 
+img.trending-article-thumb{
+      width:50%;   
+}
+div.trending-article-info{
+    padding:25px; 
+    
+}
+a.category-label{
+
+}
+h3.trending-article-title{
+   margin-top: 25px;
+   margin-bottom:16px;
+}
+a.trending-article-link{
+    font-family: Hind;
+    font-size: 22px;
+    font-weight: 700;
+    color:#2D3748;
+}
+p.trending-article-description{
+    font-family: Hind;
+    font-size: 18px;
+    line-height: 28px;
+    color:#718096;
+    margin-bottom:16px;
+
+}
+div.trending-article-meta{
+    display:flex;
+    gap:10px;
+}
+img.trending-article-author-avatar{
+    width:58px;
+    height:58px;
+    border-radius: 50%;
+}
+p.trending-article-author-name{
+    font-family: Hind;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2D3748;
+}
+span.trending-article-date{
+    font-family: Hind;
+    font-size: 16px;
+}

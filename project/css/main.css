@@ -6,5 +6,7 @@
 @import "top-pick-article.css";
 @import "fashion-style-article.css";
 @import "beauty-article.css";
+@import "trending.css";
+@import "subscribe.css";
+@import "footer.css";
 @import "media_576.css";
-@import "media-768.css";
