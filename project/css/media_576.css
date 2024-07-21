@@ -78,9 +78,9 @@
 
 
     div.top-pick-article-wrapper {
-        display: block;
+        flex-direction: column;
     }
-
+    
     article.top-pick-article-item {
         margin-bottom: 30px;
     }
