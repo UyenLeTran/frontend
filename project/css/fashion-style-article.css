@@ -36,8 +36,7 @@ img.fashion-style-article-thumb{
 article.fashion-style-article-item{
     border-radius: 15px;
     overflow: hidden;
-    width: calc(100% - 60px);
-    display: flex;
+    width: calc((100% - 60px) / 3);
     background: #fff;
 }
 div.fashion-style-article-info{

@@ -1,144 +1,179 @@
 @media only screen and (max-width: 600px) {
+    div.container {
+        max-width: 576px;
+    }
+
     /*header*/
-    
     header nav {
         display: block;
         text-align: center;
         background-color: #fff;
-        padding:20px 0px;
+        padding: 20px 0px;
     }
+
     header ul {
         display: block;
         font-size: 0px;
-        margin-top:15px;
+        margin-top: 15px;
     }
+
     li.menu-item {
         display: inline-block;
         text-align: center;
-        margin-left:24px;
+        margin-left: 24px;
     }
-    li.menu-item:last-child{
+
+    li.menu-item:last-child {
         margin-right: 0px;
     }
+
     /*end header*/
     /*featured-categories*/
-    div.featured-categories-wrapper{
+    div.featured-categories-wrapper {
         flex-wrap: wrap;
     }
-    div.featured-category-item{
+
+    div.featured-category-item {
         width: calc((100% - 30px) / 2);
     }
-    img.top-pick-article-thumb{
-        width:100%;
+
+    img.top-pick-article-thumb {
+        width: 100%;
     }
+
     /*featured-categories*/
     div.hero-article-wrapper {
         display: block;
     }
+
     div.hero-article-info {
         width: 100%;
     }
-    div.hero-article-image{
+
+    div.hero-article-image {
         width: 100%;
     }
+
     img.hero-article-thumb {
         width: 100%;
     }
+
     h1.hero-article-title {
         font-family: Libre Baskerville;
         font-size: 45px;
         font-weight: 700;
         line-height: 55px;
         text-align: left;
-        margin:24px 0px;
-    }
-    p.hero-article-description{
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom:24px;
-    }
-    /*end featured-categories*/
-    /*top-pick-article*/
-    
-    
-    div.top-pick-article-wrapper{
-        display: block;
-    }
-    article.top-pick-article-item{
-        margin-bottom:30px;
-    }
-    article.top-pick-article-item:last-child{
-        margin-bottom:30px;
+        margin: 24px 0px;
     }
 
-    
+    p.hero-article-description {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+
+    /*end featured-categories*/
+    /*top-pick-article*/
+
+
+    div.top-pick-article-wrapper {
+        display: block;
+    }
+
+    article.top-pick-article-item {
+        margin-bottom: 30px;
+    }
+
+    article.top-pick-article-item:last-child {
+        margin-bottom: 30px;
+    }
+
+
     /*end top-pick-article*/
 
     /*fashion style article*/
     article.fashion-style-article-item {
         width:100%;
     }
-    div.fashion-style-article-wrapper{
+
+    div.fashion-style-article-wrapper {
         flex-wrap: wrap;
     }
 
     /*end fashion style article */
     /*beauty*/
-    article.beauty-article-item{
-        width:100%;
+    article.beauty-article-item {
+        flex-direction: column;
     }
 
     div.beauty-article-content {
-        display:block
+        flex-direction: column;
     }
-    
+
     img.beauty-article-thumb {
-        width: 100%;
+        width:100%;
         height: auto;
     }
+    article.beauty-article-item {
+        width:100%;
+    }
+
     /*end beauty*/
     /*trending now*/
-    div.trending-article-wrapper{
+    div.trending-article-wrapper {
         flex-direction: column;
+
+    }
+
+    article.trending-article-item {
         width:100%;
     }
-    article.trending-article-item{
-        width:100%;
-    }
-    div.trending-article-content{
+
+    div.trending-article-content {
         flex-direction: column;
     }
-    img.trending-article-thumb{
+
+    img.trending-article-thumb {
         width:100%;
     }
+
     /*end trending now*/
     /*subscribles*/
     div.subscribe-content {
         padding: 0px 25px;
     }
-    input.subscribe-input-email{
-        width:100%;
-        margin-bottom:5px;
+
+    input.subscribe-input-email {
+        width: 100%;
+        margin-bottom: 5px;
     }
-    button.btn-subscribe{
-        width:100%;
+
+    button.btn-subscribe {
+        width: 100%;
     }
+
     /*end scribles*/
     /*footer*/
-    div.footer-wrapper{
+    div.footer-wrapper {
         flex-direction: column;
     }
-    div.footer-left{
+
+    div.footer-left {
         width:100%;
     }
-    div.footer-right{
+
+    div.footer-right {
         width:100%;
     }
-    div.footer-right-content{
-        flex-wrap:wrap;
+
+    div.footer-right-content {
+        flex-wrap: wrap;
     }
-    div.footer-list-wrapper{
-        width: calc(100%/2); 
+
+    div.footer-list-wrapper {
+        width: calc(100%/2);
     }
+
     /*end footer*/
 }
