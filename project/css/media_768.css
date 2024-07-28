@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) and (min-width:576px) {
+    div.container{
+        max-width: 768px;
+    }
+    /*header*/
+    header nav{
+        background-color: #fff;
+    }
+    div.featured-categories-wrapper{
+        flex-wrap: wrap;
+    }
+    div.featured-category-item{
+        width: calc((100% - 30px) / 2);
+    }
+    /*end header*/
+    /*hero article*/
+    div.hero-article-wrapper{
+        flex-direction: column;
+    }
+    div.hero-article-info {
+        width: 100%;
+    }
+    div.hero-article-image {
+        width:100%;
+    }
+    /*end hero article*/
+    /*top-pick-article*/
+    div.top-pick-article-wrapper{
+        flex-wrap:wrap;
+        justify-content: flex-start;
+    }
+    article.top-pick-article-item{
+        width: calc((100% - 30px) / 2);
+    }
+    /*end top-pick-article */
+    /*fashion styles*/
+    div.fashion-style-article-wrapper{
+        flex-wrap:wrap;
+    }
+    article.fashion-style-article-item{
+        width:calc((100% - 30px)/2);
+    }
+    /*end fashion styles*/
+    /*beauty*/
+    div.beauty-article-wrapper{
+        flex-direction: column;
+    }
+    article.beauty-article-item{
+        width:100%;
+    }
+    /*end beauty*/
+    /*trending now*/
+    div.trending-article-wrapper{
+        flex-direction: column;
+    }
+    article.trending-article-item{
+        width:100%;
+    }
+    
+    
+    div.footer-wrapper{
+        flex-direction: column;
+    }
+    /*end footer*/
+}

@@ -1,7 +1,6 @@
 section#trending-article{
-    background-color: #F8F9FA;
     padding:96px 0px;
-
+    background-color: #F8F9FA;
 }
 h2.trending-article-heading{
     font-family: var(--heading-font);
@@ -13,7 +12,6 @@ h2.trending-article-heading{
 div.trending-article-wrapper{
     display:flex;
     gap:30px;
-
 }
 article.trending-article-item{
     width:calc((100% - 30px) / 2);

@@ -1,0 +1,71 @@
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    div.container{
+       max-width: 992px;
+    }
+    /*featured-categories*/
+    div.featured-categories-wrapper{
+        flex-wrap: wrap;
+    }
+    div.featured-category-item{
+        width: calc((100% - 30px) / 2);
+    }
+    /*end featured-categories*/
+    /*hero article*/
+    div.hero-article-wrapper{
+        flex-direction: column;
+    }
+    div.hero-article-info {
+        width: 100%;
+    }
+    div.hero-article-image {
+        width:100%;
+    }
+    img.hero-article-thumb{
+        width:100%;
+    }
+    /*end hero article*/
+    /*top-pick-article*/
+    div.top-pick-article-wrapper{
+        flex-wrap:wrap;
+        justify-content: flex-start;
+    }
+    article.top-pick-article-item{
+        width: calc((100% - 30px) / 2);
+    }
+    /*end top-pick-article */
+    /*fashion styles*/
+    div.fashion-style-article-wrapper{
+        flex-wrap:wrap;
+    }
+    article.fashion-style-article-item{
+        width:calc((100% - 30px)/2);
+    }
+    /*end fashion styles*/
+    /*beauty*/
+    div.beauty-article-wrapper{
+        flex-direction: column;
+    }
+    article.beauty-article-item{
+        width:100%;
+    }
+    /*end beauty*/
+    /*trending now*/
+    div.trending-article-wrapper{
+        flex-direction: column;
+    }
+    article.trending-article-item{
+        width:100%;
+    }
+    
+    /*end trending now*/
+    /*subscribes*/
+    div.subscribe-wrapper{
+        width:709px;
+    }
+    /*end subscribes*/
+    /*footer*/
+    div.footer-wrapper{
+        flex-direction: column;
+    }
+    /*end footer*/
+}

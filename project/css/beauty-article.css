@@ -27,16 +27,15 @@ h2.beauty-article-heading a{
     line-height: 38px;
 }
 div.beauty-article-wrapper{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
+    display: flex; 
+    flex-wrap: wrap;
+    gap:30px;
 }
 article.beauty-article-item{
     width: calc((100% - 30px)/2);
     background-color: #fff;
     box-shadow: 1px 1px 5px 0px #0101010D;
     border-radius: 15px;
-    margin-bottom: 30px;
     overflow: hidden;
 }
 article.beauty-article-item:nth-last-child(1),article.beauty-article-item:nth-last-child(2){

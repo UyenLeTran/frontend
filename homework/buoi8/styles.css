@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #DED2D2;
+    padding:0px 99.5px;
+    
+    height: 100vh;
+}
+section.light-mode{
+    text-align: center;
+}
+h1.title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #1D2127;
+    margin-top: 80px;
+    letter-spacing:0.02em;
+}
+
+p.info {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 50px;
+    letter-spacing:0.02em;
+}
+
+ul.tab {
+    display: inline-block;
+    background-color: #EBEFF0;
+    border-radius: 100px;
+    margin-bottom: 113px;
+    padding: 4px;
+    letter-spacing:0.02em;
+    text-align: center;
+    font-size: 0px;
+}
+
+li.mothly {
+    background-color: #1D2127;
+    color: #FFFFFF;
+    padding: 10px 0px;
+    margin-right: 8px;
+    border-radius: 100px;
+    display:inline-block;
+    letter-spacing:0.02em;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    width:150px;
+}
+
+li.yearly {
+    background-color: #EBEFF0;
+    border-radius: 100px;
+    padding: 10px 0px;
+    letter-spacing:0.02em;
+    display:inline-block;
+    width:150px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+li.yearly span {
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-left:4px;
+}
+
+div.most-popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+button.most-popular-button {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    color: #181059;
+    background: #fff;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin-bottom: 16px;
+}
+
+div.pricing-table {
+    display: flex;
+    border-radius: 32px;
+    background-color: #fff;
+}
+
+div.pricing-card {
+    background: #fff;
+    max-width: 300px;
+    text-align: left;
+    padding: 44px 32px 44px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.pricing-card:first-child{
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+} 
+iv.pricing-card:last-child{
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+} 
+div.pricing-card:hover, div.active {
+    background: linear-gradient(162.69deg, #4FB8D9 -18.59%, #5C7BE9 98.68%);
+    border-radius: 30px;
+    border: 8px solid #82ACFF80;
+    position: relative;
+    top: -72px;
+    box-shadow: 0px 3px 14px 0px #2D2F331F;
+
+
+
+}
+
+div.pricing-card:hover button.most-popular-button {
+    display: block;
+}
+
+div.pricing-card:hover li {
+    color: #fff;
+}
+
+div.pricing-card:hover i {
+    color: #5892E4;
+    background: #fff;
+}
+
+div.pricing-card:hover h2 {
+    color: #fff;
+}
+
+div.pricing-card:hover .price {
+    color: #fff;
+}
+
+div.pricing-card:hover .price-info p {
+    color: #fff;
+}
+
+div.pricing-card:hover div.card-footer button {
+    background: #82ACFF;
+    color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.card-header h2 {
+    color: #1D2127;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div.card-header-info {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+div.price-info p:first-child {
+    margin-bottom: 2px;
+}
+
+div.price-info p {
+    font-size: 12px;
+    color: #B9BEC1;
+
+}
+
+div.card-header .price {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1D2127;
+}
+
+div.card-header .price span {
+    font-size: 16px;
+    color: #666;
+}
+
+div.card-body {
+    flex: 1;
+}
+
+div.card-body ul {
+    padding: 0;
+    text-align: left;
+}
+
+div.card-body ul li:last-child {
+    padding-bottom: 0px;
+}
+
+div.card-body ul li:first-child {
+    padding-top: 0px;
+}
+
+div.card-body ul li {
+    font-size: 14px;
+    text-align: left;
+    color: #1D2127;
+    padding: 12px 0px;
+}
+
+div.card-body ul li i {
+    font-size: 10px;
+    color: #B9BEC1;
+    background: #EBEFF0;
+    margin-right: 8px;
+    border-radius: 50%;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+
+.card-footer {
+    margin-top: 70px;
+}
+
+.card-footer button {
+    border: none;
+    padding: 8px 70px;
+    border-radius: 8px;
+    background: #EFF6FF;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #5B7EE8;
+
+}
+
+
